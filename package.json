@@ -1,0 +1,16 @@
+{
+  "name": "xlsx-to-json",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "convert-to-json": "node xlsx_to_json.js",
+    "convert-to-xlsx": "node json_to_xlsx.js"
+  },
+  "keywords": [],
+  "author": "Kamiya",
+  "license": "ISC",
+  "description": "Tool to convert .xlsx files to .json",
+  "dependencies": {
+    "xlsx": "^0.18.5"
+  }
+}

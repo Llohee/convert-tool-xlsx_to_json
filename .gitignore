@@ -1,0 +1,17 @@
+# Learn more https://docs.github.com/en/get-started/getting-started-with-git/ignoring-files
+
+# dependencies
+node_modules/
+
+# input, output files (ignore all but keep folder)
+input_file_xlsx/*
+!input_file_xlsx/.gitkeep
+
+input_file_json/*
+!input_file_json/.gitkeep
+
+output_file_json/*
+!output_file_json/.gitkeep
+
+output_file_xlsx/*
+!output_file_xlsx/.gitkeep
